@@ -13,9 +13,9 @@ function WorkingProcess() {
                     <div className="section-head">
                     <div className="section-sub-title center-title"  data-aos="move-right" data-aos-delay="100">
                         <Image width={12} height={17} src="/assets/images/services/section-custom-menubar.png" alt="Corporate_service" />
-                        <span className="subtitle">OUR work process</span>
+                        <span className="subtitle">Beneficios</span>
                     </div>
-                    <h2 className="title split-collab"  data-aos="move-right" data-aos-delay="100">How Our Services Work</h2>
+                    <h2 className="title split-collab"  data-aos="move-right" data-aos-delay="100">Nuestras 3P para asegurar frescura y calidad</h2>
                     </div>
                 </div>
             </div>
@@ -33,10 +33,9 @@ function WorkingProcess() {
                         </div>
                         </div>
                         <div className="services-content services-content-style-1 text-center">
-                        <h5 className="title">Meeting Client</h5>
+                        <h5 className="title">Protección</h5>
                         <p className="description">
-                            Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem
-                            men settle genius excuse.
+                        Vencol garantiza alimentos seguros, libres de contaminantes, al absorber fluidos con bacterias. Resultado: alimentos frescos, inocuos y confianza del consumidor.
                         </p>
                         </div>
                     </div>
@@ -55,10 +54,9 @@ function WorkingProcess() {
                         </div>
                         </div>
                         <div className="services-content services-content-style-1 text-center">
-                        <h5 className="title">Project Strategy</h5>
+                        <h5 className="title">Preservación</h5>
                         <p className="description">
-                            Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem
-                            men settle genius excuse.
+                            Nuestras soluciones extienden la vida útil de los productos frescos, por varios días más, al prevenir la acumulación de líquidos y el crecimiento bacteriano. Reduce el desperdicio y beneficia tanto a clientes como a consumidores.
                         </p>
                         </div>
                     </div>
@@ -77,10 +75,9 @@ function WorkingProcess() {
                             </div>
                             </div>
                             <div className="services-content services-content-style-1 text-center">
-                            <h5 className="title">Campaign Design</h5>
+                            <h5 className="title">Presentación</h5>
                             <p className="description">
-                                Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem
-                                men settle genius excuse.
+                                Empaques limpios, sin &quot;sangrado&quot; ni malos olores, mejoran la apariencia del producto y generan confianza inmediata. Vencol ayuda a las marcas de alimentos a ofrecer presentaciones de calidad que el consumidor valora y prefiere, beneficiando a nuestros clientes comerciales.
                             </p>
                             </div>
                         </div>

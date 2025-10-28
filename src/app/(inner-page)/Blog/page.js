@@ -1,13 +1,10 @@
 "use client"
 import { useState } from "react";
-import HeaderInner from "@/components/header/HeaderInner"
 import Breadcrumb from "@/components/breadcrumb/Breadcrumb"
-
-
-import FooterOne from "@/components/footer/FooterOne"
+import FooterTwo from "@/components/footer/FooterTwo"
 import BackTop from "@/components/footer/BackToTop"
-
 import Link from 'next/link';
+import HeaderFour from "@/components/header/HeaderFour";
 const blogData = [
     {
         imgSrc: "assets/images/blog/blog-2.png",
@@ -149,7 +146,7 @@ const blogData = [
   
     return (
       <div className="index-one">
-        <HeaderInner />
+        <HeaderFour />
         <Breadcrumb title="Latest News" activeItem="Latest News" />
   
         {/* latest blog area start */}
@@ -208,7 +205,7 @@ const blogData = [
         </div>
         {/* latest blog area end */}
   
-        <FooterOne />
+        <FooterTwo />
         <BackTop />
       </div>
     );

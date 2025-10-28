@@ -1,5 +1,6 @@
 "use client"; 
 import React, { useState, useRef, useEffect } from 'react';
+import Image from 'next/image';
 import Nav from "@/components/header/Nav"
 import Link from 'next/link';
 
@@ -116,32 +117,32 @@ function HeaderFour() {
                     <div className="left-information-area">
                         <p className="left-top">
                         <Link href={'tel:+4733378901'}>
-                            <i className="fa-regular fa-phone" /> +00993264852
+                            <i className="fa-regular fa-envelope" /> servicioalcliente@vencol.com
                         </Link>
                         </p>
-                        <div className="location-area">
+                        {/* <div className="location-area">
                         <i className="fa-light fa-location-dot" />
-                        <Link href={'#'}>California, TX 70240</Link>
-                        </div>
+                        <Link href={'#'}>COLOMBIA - USA - ECUADOR - MEXICO</Link>
+                        </div> */}
                         <div className="working-time">
                         <i className="fa-light fa-clock" />
-                        <p>Working Hours: 9:00 AM – 8:00 PM</p>
+                        <p>Horarios de atención: 8:00 AM – 5:00 PM</p>
                         </div>
                     </div>
                     <div className="right-header-top">
                         <div className="social-area-transparent">
-                        <span>Follow on</span>
+                        <span>Siguenos</span>
                         <Link href={'#'}>
                             <i className="fa-brands fa-facebook-f" />
                         </Link>
                         <Link href={'#'}>
-                            <i className="fa-brands fa-twitter" />
+                            <i className="fa-brands fa-instagram" />
                         </Link>
                         <Link href={'#'}>
                             <i className="fa-brands fa-linkedin-in" />
                         </Link>
                         <Link href={'#'}>
-                            <i className="fa-brands fa-pinterest-p" />
+                            <i className="fa-brands fa-tiktok" />
                         </Link>
                         </div>
                     </div>
@@ -158,14 +159,19 @@ function HeaderFour() {
                 <div className="header-mida-area style-two ">
                     <div className="logo-area-start">
                     <Link href="/">
-                        <img src="assets/images/logo/logo-03.png" alt="logo" />
+                    <Image
+                        src="/assets/logos/logo-vencol.webp"
+                        alt="logo"
+                        width={150}
+                        height={50}
+                    />
                     </Link>
                     </div>
                     <Nav/>
                     {/* <Link href={'#'} class="tmp-btn btn-primary">Get Consulting</Link> */}
                     <div className="actions-area">
                     <Link href={'/Service'} className="tmp-btn btn-primary">
-                        Get Started Now
+                       Contactanos Ahora
                     </Link>
                     {/* <div class="menu-button" id="search">
                         <i class="fa-light fa-grid-2"></i>
@@ -194,8 +200,13 @@ function HeaderFour() {
 
         <div id="side-hide" className={isMenuVisible ? 'show' : ''}>
             <div className="top-area">
-                <a href="index.html" className="logo-area">
-                <img src="assets/images/logo/logo-03.png" alt="logo" />
+                <a href="index.html" className="logo-area">                
+                <Image
+                        src="/assets/logos/logo-vencol.webp"
+                        alt="logo"
+                        width={150}
+                        height={50}
+                    />
                 </a>
                 <div className="close-icon-area">
                 <div id="close-slide__main" onClick={handleOverlayClick}>
@@ -367,7 +378,7 @@ function HeaderFour() {
                     
                     <li>
                         <Link href="#" className="main" onClick={() => toggleMenu(3)}>
-                            Contact
+                            Contacto
                         </Link>
                     </li>
                 </ul>

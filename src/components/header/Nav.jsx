@@ -7,11 +7,28 @@ function Nav() {
         <div className="header-nav main-nav-one">
             <nav>
                 <ul className="parent-nav">
-                <li className="has-dropdown">
-                    <Link className="nav-link " href="#">
-                    <span className="rolling-text"><div className="block"><span className="letter">H</span><span className="letter">O</span><span className="letter">M</span><span className="letter">E</span></div><div className="block"><span className="letter">H</span><span className="letter">O</span><span className="letter">M</span><span className="letter">E</span></div></span>
+                <li> {/* FOR SUBMENU className="has-dropdown" */}
+                    <Link className="nav-link " href="/">
+                    <span className="rolling-text">
+                        <div className="block">
+                            <span className="letter">I</span>
+                            <span className="letter">N</span>
+                            <span className="letter">I</span>
+                            <span className="letter">C</span>
+                            <span className="letter">I</span>
+                            <span className="letter">O</span>
+                            </div>
+                            <div className="block">
+                                <span className="letter">I</span>
+                            <span className="letter">N</span>
+                            <span className="letter">I</span>
+                            <span className="letter">C</span>
+                            <span className="letter">I</span>
+                            <span className="letter">O</span>
+                                </div>
+                                </span>
                     </Link>
-                    <ul className="submenu mega-menu-wrapper">
+                    {/* <ul className="submenu mega-menu-wrapper">
                     <li className="menu-single-list">
                         <ul>
                         <li><Link href="/">Corporate Demo</Link></li>
@@ -24,37 +41,114 @@ function Nav() {
                         <li><Link href="/home-eight">Company Demo</Link></li>
                         </ul>
                     </li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li>
-                    <Link className="nav-link" href="/About">
-                    <span className="rolling-text"><div className="block"><span className="letter">A</span><span className="letter">B</span><span className="letter">O</span><span className="letter">U</span><span className="letter">T</span></div><div className="block"><span className="letter">A</span><span className="letter">B</span><span className="letter">O</span><span className="letter">U</span><span className="letter">T</span></div></span>
+                    <Link className="nav-link" href="/#nosotros">
+                    <span className="rolling-text">
+                        <div className="block">
+                            <span className="letter">N</span>
+                            <span className="letter">O</span>
+                            <span className="letter">S</span>
+                            <span className="letter">O</span>
+                            <span className="letter">T</span>
+                            <span className="letter">R</span>
+                            <span className="letter">O</span>
+                            <span className="letter">S</span>
+                        </div>
+                        <div className="block">
+                            <span className="letter">N</span>
+                            <span className="letter">O</span>
+                            <span className="letter">S</span>
+                            <span className="letter">O</span>
+                            <span className="letter">T</span>
+                            <span className="letter">R</span>
+                            <span className="letter">O</span>
+                            <span className="letter">S</span>
+                        </div>
+                        </span>
                     </Link>
                 </li>
                 <li className="has-dropdown">
                     <Link className="nav-link" href="#">
-                    <span className="rolling-text"><div className="block"><span className="letter">S</span><span className="letter">E</span><span className="letter">R</span><span className="letter">V</span><span className="letter">I</span><span className="letter">C</span><span className="letter">E</span><span className="letter">S</span></div><div className="block"><span className="letter">S</span><span className="letter">E</span><span className="letter">R</span><span className="letter">V</span><span className="letter">I</span><span className="letter">C</span><span className="letter">E</span><span className="letter">S</span></div></span>
+                    <span className="rolling-text">
+                        <div className="block">
+                            <span className="letter">S</span>
+                            <span className="letter">O</span>
+                            <span className="letter">L</span>
+                            <span className="letter">U</span>
+                            <span className="letter">C</span>
+                            <span className="letter">I</span>
+                            <span className="letter">O</span>
+                            <span className="letter">N</span>
+                            <span className="letter">E</span>
+                            <span className="letter">S</span>
+                        </div>
+                        <div className="block">
+                            <span className="letter">S</span>
+                            <span className="letter">O</span>
+                            <span className="letter">L</span>
+                            <span className="letter">U</span>
+                            <span className="letter">C</span>
+                            <span className="letter">I</span>
+                            <span className="letter">O</span>
+                            <span className="letter">N</span>
+                            <span className="letter">E</span>
+                            <span className="letter">S</span>
+                        </div>
+                        </span>
                     </Link>
-                    <ul className="submenu">
-                    <li><Link href="/Service">Service</Link></li>
-                    <li><Link href="/ServiceDetails">Service Details</Link></li>
+                    <ul className="submenu">                    
+                    <li><Link href="/almohadilla-absorbente">Almohadillas Absorbentes</Link></li>
+                    <li><Link href="/foils-marcacion">Foils de marcación</Link></li>
+                    <li><Link href="/foils-etiquetas">Foils para elaboración de etiquetas</Link></li>
+                    <li><Link href="/termoencogibles-cryovac">Bolsas/fundas termoencogibles Cryovac</Link></li>
+                    <li><Link href="/termoformado-cryovac">Film de Empaque Termoformado Cryovac</Link></li>
                     </ul>
                 </li>
-                <li className="has-dropdown">
-                    <Link className="nav-link" href="#">
-                    <span className="rolling-text"><div className="block"><span className="letter">B</span><span className="letter">L</span><span className="letter">O</span><span className="letter">G</span></div><div className="block"><span className="letter">B</span><span className="letter">L</span><span className="letter">O</span><span className="letter">G</span></div></span>
+                <li>{/* <li>className="has-dropdown" */}
+                    <Link className="nav-link" href="/Blog">
+                    <span className="rolling-text">
+                        <div className="block">
+                            <span className="letter">B</span>
+                            <span className="letter">L</span>
+                            <span className="letter">O</span>
+                            <span className="letter">G</span>
+                        </div>
+                        <div className="block">
+                            <span className="letter">B</span>
+                            <span className="letter">L</span>
+                            <span className="letter">O</span>
+                            <span className="letter">G</span>
+                        </div>
+                        </span>
                     </Link>
-                    <ul className="submenu">
+                    {/* <ul className="submenu">
                     <li><Link href="/Blog">Blog</Link></li>
                     <li><Link href="/BlogColOne">Blog Col 1</Link></li>
                     <li><Link href="/BlogColTwo">Blog Col 2</Link></li>
                     <li><Link href="/BlogDetails">Blog Details</Link></li>
                     <li><Link href="/BlogDetailsTwo">Blog Details v2</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="has-dropdown">
+                {/* <li className="has-dropdown">
                     <Link className="nav-link" href="#">
-                    <span className="rolling-text"><div className="block"><span className="letter">P</span><span className="letter">A</span><span className="letter">G</span><span className="letter">E</span><span className="letter">S</span></div><div className="block"><span className="letter">P</span><span className="letter">A</span><span className="letter">G</span><span className="letter">E</span><span className="letter">S</span></div></span>
+                    <span className="rolling-text">
+                        <div className="block">
+                            <span className="letter">P</span>
+                            <span className="letter">A</span>
+                            <span className="letter">G</span>
+                            <span className="letter">E</span>
+                            <span className="letter">S</span>
+                        </div>
+                        <div className="block">
+                            <span className="letter">P</span>
+                            <span className="letter">A</span>
+                            <span className="letter">G</span>
+                            <span className="letter">E</span>
+                            <span className="letter">S</span>
+                        </div>
+                        </span>
                     </Link>
                     <ul className="submenu">
                     <li><Link href="/Appoinment">Appoinment</Link></li>
@@ -71,10 +165,31 @@ function Nav() {
                     <li><Link href="/FaqOne">Faq</Link></li>
                     <li><Link href="/Error">Error</Link></li>
                     </ul>
-                </li>
+                </li> */}
                 <li>
                     <Link className="nav-link" href="/Contact">
-                    <span className="rolling-text"><div className="block"><span className="letter">C</span><span className="letter">O</span><span className="letter">N</span><span className="letter">T</span><span className="letter">A</span><span className="letter">C</span><span className="letter">T</span></div><div className="block"><span className="letter">C</span><span className="letter">O</span><span className="letter">N</span><span className="letter">T</span><span className="letter">A</span><span className="letter">C</span><span className="letter">T</span></div></span>
+                    <span className="rolling-text">
+                        <div className="block">
+                            <span className="letter">C</span>
+                            <span className="letter">O</span>
+                            <span className="letter">N</span>
+                            <span className="letter">T</span>
+                            <span className="letter">A</span>
+                            <span className="letter">C</span>
+                            <span className="letter">T</span>
+                            <span className="letter">O</span>
+                        </div>
+                        <div className="block">
+                            <span className="letter">C</span>
+                            <span className="letter">O</span>
+                            <span className="letter">N</span>
+                            <span className="letter">T</span>
+                            <span className="letter">A</span>
+                            <span className="letter">C</span>
+                            <span className="letter">T</span>
+                            <span className="letter">O</span>
+                        </div>
+                        </span>
                     </Link>
                 </li>
                 </ul>

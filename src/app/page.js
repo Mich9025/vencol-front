@@ -1,17 +1,15 @@
 "use client"
-import BannerOne from "@/components/banner/BannerOne"
-import Header from "@/components/header/HeaderOne"
+import BannerSix from "@/components/banner/BannerSix"
+import HeaderFour from "@/components/header/HeaderFour"
 import AboutOne from "@/components/about/AboutOne"
 import ServiceOne from "@/components/service/ServiceOne"
 import WorkingProcess from "@/components/workingprocess/ProcessOne"
-import PortfolioOne from "@/components/portfolio/PortfolioOne"
-import FaqOne from "@/components/faq/FaqOne"
-import FunfactsOne from "@/components/funfacts/FunfactsOne"
-import TeamOne from "@/components/team/TeamOne"
-import TestimonialsBrand from "@/components/testimonials/TestimonialsOne"
-import ContactOne from "@/components/contact/ContactOne"
+import CounterOne from "@/components/counterup/CounterOne"
+import BrandTwo from "@/components/brand/BrandTwo"
+import LargeVideo from "@/components/video/LargeVideo"
+import TestimonialsFour from "@/components/testimonials/TestimonialsFour"
 import Blog from "@/components/blog/Blog"
-import FooterOne from "@/components/footer/FooterOne"
+import FooterTwo from "@/components/footer/FooterTwo"
 import BackToTop from "@/components/footer/BackToTop"
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -26,19 +24,17 @@ function HomePage() {
   }, []);
   return (
     <div className="index-one">
-        <Header/>
-        <BannerOne/>
+        <HeaderFour/>
+        <BannerSix/>        
         <AboutOne/>
         <ServiceOne/>
-        <WorkingProcess/>
-        <PortfolioOne/>
-        <FaqOne/>
-        <FunfactsOne/>
-        <TeamOne/>
-        <TestimonialsBrand/>
-        <ContactOne/>
+        <WorkingProcess/>        
+        <LargeVideo/>
+        <CounterOne/>                
+        <TestimonialsFour/>
+        <BrandTwo/>        
         <Blog/>
-        <FooterOne/>
+        <FooterTwo/>
         <BackToTop/>
     </div>
   )

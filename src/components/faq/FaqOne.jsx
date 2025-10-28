@@ -9,20 +9,21 @@ function FaqOne() {
   return (
     <div>
 
-        {/* Tmp FAQ area Start  */}
-        <div className="faq-area faq-style-one faq-bg-image bg_image tmp-section-gap mt-dec--180">
+        {/* Área FAQ Inicio  */}
+        <div className="background-color-services faq-area faq-style-one  tmp-section-gap mt-dec--180">
             <div className="container pt--180">
             <div className="row">
                 <div className="col-lg-12">
                 <div className="section-head">
                     <div className="section-sub-title center-title" data-aos="move-right" data-aos-delay="100">
-                    <img 
-                        src="assets/images/services/section-custom-menubar.png "
-                        alt="Corporate_service"
+                    
+                    <Image width={12} height={12}
+                    src="/assets/images/services/section-custom-menubar-green.png"
+                    alt="Servicio de Empaques Sostenibles"
                     />
-                    <span className="subtitle">QUESTION AND ANSWERS</span>
+                    <span className="subtitle text-white">PREGUNTAS Y RESPUESTAS</span>
                     </div>
-                    <h2 className="title split-collab" data-aos="move-right" data-aos-delay="300">Frequency Asked Questions</h2>
+                    <h2 className="text-white title split-collab" data-aos="move-right" data-aos-delay="300">Preguntas Frecuentes</h2>
                 </div>
                 </div>
             </div>
@@ -31,7 +32,7 @@ function FaqOne() {
                 <div className="thumbnail" data-aos="move-right" data-aos-delay="100">
                     <Image width={580} height={541}
                     src="/assets/images/faq/faq-1.png"
-                    alt="Business Consulting FAQ"
+                    alt="FAQ Empaques Sostenibles para Alimentos"
                     />
                 </div>
                 </div>
@@ -42,34 +43,34 @@ function FaqOne() {
                                 <Accordion.Header>
                                 <div className="accordion-button-left">
                                         <i className="fa-regular fa-question" />
-                                        <span>Why is collaborative learning so important</span>
+                                        <span>¿Sus materiales de empaque son realmente biodegradables?</span>
                                         </div>
                                         <div className="accordion-button-right">
                                         <i className="fa-sharp fa-light fa-arrow-right" />
                                         </div>
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                        Companions shy had solicitude favorable own. Which could saw
-                                        guest man now heard but. Lasted my coming uneasy marked so
-                                        should. Gravity letters it amongst herself dearest an
-                                        windows by. Wooded ladies she.
+                                        Sí, todos nuestros materiales de empaque están certificados como biodegradables y compostables. 
+                                        Se descomponen naturalmente en un período de 90-180 días en instalaciones de compostaje comercial, 
+                                        sin dejar residuos dañinos. Nuestros materiales cumplen con estándares internacionales incluyendo 
+                                        las certificaciones ASTM D6400 y EN 13432.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
                                 <Accordion.Header>
                                     <div className="accordion-button-left">
                                         <i className="fa-regular fa-question" />
-                                        <span>Do you offer free trials</span>
+                                        <span>¿Qué tipos de productos alimentarios pueden manejar sus empaques?</span>
                                         </div>
                                         <div className="accordion-button-right">
                                         <i className="fa-sharp fa-light fa-arrow-right" />
                                     </div>
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                        Companions shy had solicitude favorable own. Which could saw
-                                        guest man now heard but. Lasted my coming uneasy marked so
-                                        should. Gravity letters it amongst herself dearest an
-                                        windows by. Wooded ladies she.
+                                        Nuestras soluciones de empaque sostenible están diseñadas para diversos productos alimentarios incluyendo 
+                                        carnes frescas, aves, mariscos, productos lácteos, frutas, verduras y alimentos procesados. 
+                                        Ofrecemos diferentes propiedades de barrera y resistencia a la temperatura para garantizar una 
+                                        seguridad alimentaria óptima y una vida útil extendida.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="2">
@@ -77,7 +78,7 @@ function FaqOne() {
                                     <div className="accordion-button-left">
                                         <i className="fa-regular fa-question" />
                                         <span>
-                                            Can I share my courses with non-registered users
+                                            ¿Cómo se comparan en costo sus empaques ecológicos con el empaque tradicional?
                                         </span>
                                         </div>
                                         <div className="accordion-button-right">
@@ -85,18 +86,18 @@ function FaqOne() {
                                     </div>
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                        Companions shy had solicitude favorable own. Which could saw
-                                        guest man now heard but. Lasted my coming uneasy marked so
-                                        should. Gravity letters it amongst herself dearest an
-                                        windows by. Wooded ladies she.
+                                        Aunque el empaque sostenible puede tener un costo inicial ligeramente mayor, los beneficios a largo plazo 
+                                        incluyen tarifas reducidas de eliminación de residuos, mejor reputación de marca y cumplimiento 
+                                        con regulaciones ambientales. Ofrecemos precios competitivos y descuentos por volumen 
+                                        para hacer el empaque ecológico accesible para empresas de todos los tamaños.
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
 
                         <div className="faq-buttom">
-                        <h4 className="title">Still Have More Questions?</h4>
+                        <h4 className="title">¿Aún Tienes Más Preguntas?</h4>
                         <p>
-                            Contact Our <a href="#">Expert Support Team</a>
+                            Contacta a Nuestro <a href="#">Equipo de Soporte Experto</a>
                         </p>
                         </div>
                     </div>
@@ -104,7 +105,7 @@ function FaqOne() {
             </div>
             </div>
         </div>
-        {/* Tmp FAQ area Start  */}
+        {/* Área FAQ Fin  */}
 
     </div>
   )

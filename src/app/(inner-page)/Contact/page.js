@@ -1,16 +1,16 @@
 
-import HeaderInner from "@/components/header/HeaderInner"
 import Breadcrumb from "@/components/breadcrumb/Breadcrumb"
-import FooterOne from "@/components/footer/FooterOne"
+import FooterTwo from "@/components/footer/FooterTwo"
 import BackTop from "@/components/footer/BackToTop"
 import Link from 'next/link';
+import HeaderFour from "@/components/header/HeaderFour";
 
 
 function page() {
   return (
     <div className="service-details contact-page">
-        <HeaderInner/>
-        <Breadcrumb title="Contact With Us" activeItem="Contact With Us" />
+        <HeaderFour/>
+        <Breadcrumb title="Contáctanos" activeItem="Contáctanos" bgImage="assets/photos/photo_1.jpg" />
           
 
                     {/* tmp contact area */}
@@ -20,38 +20,38 @@ function page() {
                             <div className="col-lg-5">
                             <div className="contact-inner">
                                 <div className="section-head section-head-one-side text-align-left">
-                                <span className="title">Contact Us</span>
+                                <span className="title">Contáctanos</span>
                                 <p className="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolor magnaaliqua.
+                                    Estamos aquí para ayudarte. Ponte en contacto con nosotros para cualquier consulta, 
+                                    solicitud de información o para conocer más sobre nuestros servicios especializados.
                                 </p>
                                 </div>
                                 <ul className="ft-link ft-link-style-three">
-                                <li>
+                                {/* <li>
                                     <div className="single-contact background-transparent">
                                     <div className="icon">
                                         <i className="fa-light fa-phone" />
                                     </div>
                                     <div className="content">
-                                        <span>Call Us</span>
+                                        <span>Llámanos</span>
                                         <Link className="contact-here" href="tel:+4733378901">
                                         +123 34598768
                                         </Link>
                                     </div>
                                     </div>
-                                </li>
+                                </li> */}
                                 <li>
                                     <div className="single-contact background-transparent">
                                     <div className="icon">
                                         <i className="fa-solid fa-envelope-open-text" />
                                     </div>
                                     <div className="content">
-                                        <span>E-mail</span>
+                                        <span>Correo Electrónico</span>
                                         <Link
                                         className="contact-here"
                                         href="mailto:webmaster@example.com"
                                         >
-                                        info@uibundle.com
+                                        servicioalcliente@vencol.com
                                         </Link>
                                     </div>
                                     </div>
@@ -62,40 +62,56 @@ function page() {
                                         <i className="fa-regular fa-map-location-dot" />
                                     </div>
                                     <div className="content">
-                                        <span>Address</span>
-                                        <Link className="contact-here" href="#">
-                                        25/5 Double Street, Texas Houston USA
-                                        </Link>
+                                        <span>Dirección</span>
+                                        <ul>
+                                            <li className="contact-here">
+                                                
+                                                {' '}COLOMBIA - Carrera 69P #74B-71 Bogotá
+                                                
+                                            </li>
+                                            <li className="contact-here">
+                                                
+                                                {' '}USA - 8209 NW 70 St. Miami, FL 33166
+                                                
+                                            </li>
+                                            <li className="contact-here">
+                                               
+                                                {' '}MEXICO - Anillo Vial Fray Junipero, Salitre San Jusé El Alto, Solar Urbano 106 4, Queretaro
+                                                
+                                            </li>
+                                            <li className="contact-here">
+                                               
+                                                {' '}ECUADOR - Vasco de Contreras N36-235 y Mañosca, Quito
+                                                
+                                            </li>
+                                        </ul>    
                                     </div>
                                     </div>
                                 </li>
-                                </ul>
+                                </ul>                             
                                 <div className="tmp-tag-list tag-list-one">
                                 <Link className="tag-list" href="#">
                                     Facebook
                                 </Link>
                                 <Link className="tag-list" href="#">
-                                    Twitter
+                                    Tiktok
                                 </Link>
                                 <Link className="tag-list" href="#">
                                     Linkedin
                                 </Link>
                                 <Link className="tag-list" href="#">
-                                    Skype
-                                </Link>
-                                <Link className="tag-list" href="#">
-                                    Pinterest
-                                </Link>
+                                    Instagram
+                                </Link>                                
                                 </div>
                             </div>
                             </div>
                             <div className="col-lg-7">
                             <div className="contact-inner">
                                 <div className="section-head section-head-one-side text-align-left">
-                                <span className="title">GET IN TOUCH</span>
+                                <span className="title">PONTE EN CONTACTO</span>
                                 <p className="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolor magnaaliqua.
+                                    Completa el formulario y nos pondremos en contacto contigo lo antes posible. 
+                                    Estamos listos para atender tus consultas y brindarte la mejor atención.
                                 </p>
                                 </div>
                                 <div className="contact-form style-two">
@@ -107,7 +123,7 @@ function page() {
                                                 <input
                                                 className="input-field"
                                                 name="name"
-                                                placeholder="Name"
+                                                placeholder="Nombre"
                                                 id="contact-name"
                                                 type="text"/>
                                             </div>
@@ -117,7 +133,7 @@ function page() {
                                                 <input
                                                 className="input-field"
                                                 name="phone"
-                                                placeholder="Phone"
+                                                placeholder="Teléfono"
                                                 type="text"/>
                                             </div>
                                             </div>
@@ -126,7 +142,7 @@ function page() {
                                                 <input
                                                 className="input-field"
                                                 name="email"
-                                                placeholder="Email"
+                                                placeholder="Correo Electrónico"
                                                 type="email"/>
                                             </div>
                                             </div>
@@ -135,7 +151,7 @@ function page() {
                                                 <input
                                                 className="input-field"
                                                 name="subject"
-                                                placeholder="Subject"
+                                                placeholder="Asunto"
                                                 type="text"required
                                                 />
                                             </div>
@@ -145,14 +161,14 @@ function page() {
                                                 <textarea
                                                 className="input-field"
                                                 name="message"
-                                                placeholder="How can we help"id="contact-message"
+                                                placeholder="¿Cómo podemos ayudarte?"id="contact-message"
                                                 />
                                             </div>
                                             </div>
                                             <div className="col-lg-12">
                                             <div className="form-submit-group">
                                                 <button className="tmp-btn btn-primary" type="submit">
-                                                Submit Now
+                                                Enviar Ahora
                                                 </button>
                                             </div>
                                             </div>
@@ -164,7 +180,7 @@ function page() {
                         </div>
                         </div>
                     </div>
-                    {/* tmp contact area */}
+                    {/* tmp contact area
                     <div className="tmp-map-area tmp-sectiongapBottom">
                         <div className="map-area-flotimg-container">
                         <iframe
@@ -177,10 +193,10 @@ function page() {
                             referrerPolicy="no-referrer-when-downgrade"
                         />
                         </div>
-                    </div>
+                    </div> */}
 
           
-        <FooterOne/>
+        <FooterTwo/>
         <BackTop/>
         
     </div>

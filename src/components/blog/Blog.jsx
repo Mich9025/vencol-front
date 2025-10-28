@@ -12,14 +12,14 @@ function Blog() {
             <div className="row">
                 <div className="col-lg-12">
                 <div className="section-head">
-                    <div className="section-sub-title center-title" data-aos="move-right" data-aos-delay="100">
-                        <img 
-                            src="assets/images/services/section-custom-menubar.png "
-                            alt="Corporate_service"
+                    <div className="section-sub-title center-title" data-aos="move-right" data-aos-delay="100">                        
+                        <Image width={12} height={12}
+                            src="/assets/images/services/section-custom-menubar.png"
+                            alt="VENCOL"
                         />
-                        <span className="subtitle">LATEST BLOG</span>
+                        <span className="subtitle">Novedades</span>
                     </div>
-                    <h2 className="title split-collab" data-aos="move-right" data-aos-delay="200">Latest News &amp; Articles</h2>
+                    <h2 className="title split-collab" data-aos="move-right" data-aos-delay="200">Ultimas noticias &amp; artículos</h2>
                 </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@ function Blog() {
                         </p>
                         </div>
                         <Link className="btn-read-more" href={'/BlogDetails'}>
-                        <span className="read-more-text">Read More</span>
+                        <span className="read-more-text">Leer más</span>
                         <span className="read-more-icon">
                             <i className="fa-solid fa-arrow-right" />
                         </span>
@@ -111,7 +111,7 @@ function Blog() {
                         </p>
                         </div>
                         <Link className="btn-read-more" href={'/BlogDetails'}>
-                        <span className="read-more-text">Read More</span>
+                        <span className="read-more-text">Leer más</span>
                         <span className="read-more-icon">
                             <i className="fa-solid fa-arrow-right" />
                         </span>
@@ -159,7 +159,7 @@ function Blog() {
                         </p>
                         </div>
                         <Link className="btn-read-more" href={'/BlogDetails'}>
-                        <span className="read-more-text">Read More</span>
+                        <span className="read-more-text">Leer más</span>
                         <span className="read-more-icon">
                             <i className="fa-solid fa-arrow-right" />
                         </span>

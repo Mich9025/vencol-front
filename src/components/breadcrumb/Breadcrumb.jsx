@@ -1,7 +1,17 @@
 // components/Breadcrumb.js
-const Breadcrumb = ({ title, activeItem }) => {
+const Breadcrumb = ({ title, activeItem, bgImage }) => {
+    const backgroundStyle = bgImage ? {
+      backgroundImage: `url(${bgImage})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    } : {};
+
     return (
-      <div className="breadcrumb-area bg_image tmp-section-gap breadcrumb-bg">
+      <div 
+        className="breadcrumb-area bg_image tmp-section-gap breadcrumb-bg"
+        style={backgroundStyle}
+      >
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -9,7 +19,7 @@ const Breadcrumb = ({ title, activeItem }) => {
                 <h1 className="title split-collab">{title}</h1>
                 <ul className="page-list">
                   <li className="tmp-breadcrumb-item">
-                    <a href="/">Home</a>
+                    <a href="/">Inicio</a>
                   </li>
                   <li className="icon">
                     <i className="fa-solid fa-angle-right" />

@@ -8,19 +8,21 @@ function ServiceOne(){
     return(
       <div>
           <div>
-            <div className="tmp-services-area services-style--1 background-image-services bg_image tmp-section-gap">
+            <div className="tmp-services-area services-style--1 background-color-services tmp-section-gap">
               <div className="container">
                 <div className="row">
                   <div className="col-lg-12">
                     <div className="section-head">
-                      <div className="section-sub-title center-title">
-                        <img alt="Business_Consulting_services" src="assets/images/services/section-custom-menubar.png " />
+                      <div className="color-white section-sub-title center-title special-white-text">                        
+                        <Image width={12} height={12}
+                        alt="Business_Consulting_services"
+                        src="/assets/images/services/section-custom-menubar-green.png " />
                         <span>
-                          OUR SERVICES
+                          Revolucionando la Industria Alimentaria.
                         </span>
                       </div>
-                      <h2 className="title split-collab" data-aos="move-right" data-aos-delay="100">
-                        Our Provided Services
+                      <h2 className="color-white title split-collab" data-aos="move-right" data-aos-delay="100">                        
+                        Destacamos sus productos con la tecnología de empaque líder en el mercado.
                       </h2>
                     </div>
                   </div>
@@ -28,7 +30,7 @@ function ServiceOne(){
                 <div className="row g-5">
                   <div className="col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="100">
                     <div className="single-services service-style-one">
-                      <div className="services-inner  with-shadow card-bg-color">
+                      <div className="services-inner with-shadow card-bg-color-white">
                         <div className="thumbnail">
                           <Image width={80} height={80}
                             alt="Business consulting services"
@@ -38,11 +40,11 @@ function ServiceOne(){
                         <div className="services-content">
                           <Link href={"/ServiceDetails"}>
                             <h5 className="title">
-                              Investment Advisory
+                              Inventario seguro y confiable
                             </h5>
                           </Link>
                           <p className="desctiption">
-                            Dramatically engage top-line web services vis-a-vis cutting-edge proactively envisioned multimer Dramatically top-line web services.
+                            Gracias a una comunicación fluída con los productores, establecemos un servicio oportuno y seguro (SOS) para que sus niveles de producción no se vean afectados.
                           </p>
                           <Link className="icon angle-roted" href={"/ServiceDetails"}>
                             <i className="fa-solid fa-arrow-right" />
@@ -56,7 +58,7 @@ function ServiceOne(){
                   </div>
                   <div className="col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="300">
                     <div className="single-services service-style-one">
-                      <div className="services-inner  with-shadow card-bg-color">
+                      <div className="services-inner with-shadow card-bg-color-white">
                         <div className="thumbnail">
                           <Image width={80} height={80}
                             alt="Business consulting services"
@@ -66,11 +68,11 @@ function ServiceOne(){
                         <div className="services-content">
                           <Link href={"/ServiceDetails"}>
                             <h5 className="title">
-                              Financial Planning
+                              Envios nacionales e internacionales
                             </h5>
                           </Link>
                           <p className="desctiption">
-                            Dramatically engage top-line web services vis-a-vis cutting-edge proactively envisioned multimer Dramatically top-line web services.
+                            Donde sea que estés ubicado.
                           </p>
                           <Link className="icon angle-roted" href={"/ServiceDetails"}>
                             <i className="fa-solid fa-arrow-right" />
@@ -84,7 +86,7 @@ function ServiceOne(){
                   </div>
                   <div className="col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="500">
                     <div className="single-services service-style-one">
-                      <div className="services-inner  with-shadow card-bg-color">
+                      <div className="services-inner with-shadow card-bg-color-white">
                         <div className="thumbnail">
                           <Image width={80} height={80}
                             alt="Business consulting services"
@@ -94,11 +96,11 @@ function ServiceOne(){
                         <div className="services-content">
                           <Link href={"/ServiceDetails"}>
                             <h5 className="title">
-                              Business Consulting
+                              Asesoría Técnica y Comercial
                             </h5>
                           </Link>
                           <p className="desctiption">
-                            Dramatically engage top-line web services vis-a-vis cutting-edge proactively envisioned multimer Dramatically top-line web services.
+                            Maximizando el potencial de tus Productos.
                           </p>
                           <Link className="icon angle-roted" href={"/ServiceDetails"}>
                             <i className="fa-solid fa-arrow-right" />
@@ -119,12 +121,12 @@ function ServiceOne(){
                     <div className="services-bottom">
                       <div className="services-bottom-inner">
                         <p className="description">
-                          Our success as consultants will depend on the essential rightness of the advice.
+                          El equipo de especialistas de Vencol está comprometido con mejorar la seguridad, calidad y vida útil de los alimentos.
                         </p>
                         <p className="description">
-                          Want to learn more About us?
+                          ¿Quieres saber más?
                           <button className="btn-simple">
-                            Click here
+                            Contactanos
                           </button>
                         </p>
                       </div>

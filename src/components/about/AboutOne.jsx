@@ -22,23 +22,21 @@ const Header = ({ id }) => {
       closeVideo();
     }
   };
-
-
     return(
         <div id={id}>
-            <div>
+            <div id="nosotros">
               <div className="about-area tmp-section-gap about-style-one">
                 <div className="container">
                   <div className="row align-items-center">
                     <div className="col-lg-6">
                       <div className="about-thumbnails">
                         <div className="thumbnail">
-                          <Image width={410} height={590} data-aos="move-right" data-aos-delay="100" alt="corporate_business" src="/assets/images/about/01.png"/>
+                          <Image width={410} height={590} data-aos="move-right" data-aos-delay="100" alt="corporate_business" src="/assets/photos/photo_7.jpg"/>
                           <div className="image-two">
-                            <Image width={190} height={280} data-aos="move-left" data-aos-delay="200" alt="corporate_business" src="/assets/images/about/03.png" />
+                            <Image width={190} height={280} data-aos="move-left" data-aos-delay="200" alt="corporate_business" src="/assets/photos/photo_8.jpg" />
                           </div>
                           <div className="image-three">
-                            <Image width={410} height={200} data-aos="move-left" data-aos-delay="300" alt="corporate_business" className="" src="/assets/images/about/02.png"/>
+                            <Image width={410} height={200} data-aos="move-left" data-aos-delay="300" alt="corporate_business" className="" src="/assets/photos/photo_6.jpg"/>
                           </div>
                           <div className="square" />
                           <div className="flower">
@@ -145,24 +143,26 @@ const Header = ({ id }) => {
                     <div className="col-lg-6">
                       <div className="about-inner">
                         <div className="section-head text-align-left section-head-one-side" data-aos="fade-up" data-aos-delay="100">
-                          <div className="section-sub-title">
-                            <img 
-                              alt="Corporate_service"
-                              src="assets/images/services/section-custom-menubar.png "
+                          <div className="section-sub-title">                            
+                            <Image 
+                            alt="Corporate_service"
+                            src="/assets/images/services/section-custom-menubar.png "
+                            width={12}
+                            height={12}                            
                             />
                             <span className="subtitle">
-                              ABOUT US
+                              Innovación y Confianza
                             </span>
                           </div>
                           <h2 className="title split-collab" data-aos="fade-up" data-aos-delay="300">
-                            Find out more about our{' '}
+                            Nuestro legado{' '}
                             <br />
-                            {' '}business consulting
+                            {' '}en empaques frescos
                           </h2>
                         </div>
                         <p
                           className="description" data-aos="fade-up" data-aos-delay="500">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condimentum diam sed, consequat tellus. Quisque ac odio eget ligula gravida efficitur. Nunc facilisis sagittis magna, non venenatis mauris luctus quis.
+                          Desde hace más de 10 años, Vencol ha sido el aliado estratégico de la industria alimentaria en Colombia y Latinoamérica, brindando soluciones de empaque innovadoras que garantizan frescura y calidad.
                         </p>
                         <div
                           className="single-progress-area progress-stye-one" data-aos="fade-up" data-aos-delay="700">
@@ -190,7 +190,7 @@ const Header = ({ id }) => {
                         <div
                           className="single-progress-area progress-stye-one " data-aos="fade-up" data-aos-delay="900"
                         >
-                          <div className="progress-top">
+                          {/* <div className="progress-top">
                             <p className="name">
                               Finance Consulting
                             </p>
@@ -209,9 +209,9 @@ const Header = ({ id }) => {
                                 width: '66%'
                               }}
                             />
-                          </div>
+                          </div> */}
                         </div>
-                        <div
+                        {/* <div
                           className="thumbnail-with-title" data-aos="fade-up" data-aos-delay="1000"
                         >
                           <div className="thumbnail">
@@ -226,6 +226,38 @@ const Header = ({ id }) => {
                           <div className="title">
                             Helping you run a more efficient                                & profitable business.
                           </div>
+                        </div> */}
+                        <div className="btn-box" data-aos="fade-up" data-aos-delay="1200">
+                          <h5>
+                            Certificaciones
+                          </h5>
+                          <p className="description">
+                            Contamos con certificaciones internacionales y un equipo experto que acompaña a nuestros clientes de principio a fin, asegurando suministro confiable, soporte técnico y adaptación a sus necesidades específicas. 
+                          </p>
+                          <Image 
+                            alt="Corporate_service"
+                            src="/assets/logos/Cryovac.png "
+                            width={120}
+                            height={80}
+                          />
+                          <Image 
+                            alt="Corporate_service"
+                            src="/assets/logos/Novipax.png "
+                            width={120}
+                            height={80}
+                          />
+                          <Image 
+                            alt="Corporate_service"
+                            src="/assets/logos/SEE.png "
+                            width={120}
+                            height={80}
+                          />
+                          <Image 
+                            alt="Corporate_service"
+                            src="/assets/logos/Sealed-Air.png "
+                            width={120}
+                            height={80}
+                          />
                         </div>
                       </div>
                     </div>

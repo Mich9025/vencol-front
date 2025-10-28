@@ -13,12 +13,10 @@ import Link from 'next/link';
 
 function TestimonialsFour() {
   return (
-    <div>
-        
-
-        {/* Start Testimonial with brand  */}
+    <div>        
+        {/* Inicio Testimonios con marca  */}
         <div className="testimonial-with-brand">
-            {/* Start Testimonial Area  */}
+            {/* Inicio Área de Testimonios  */}
             <div className="testimonial-brand-area">
             <div className="container">
                 <div className="row">
@@ -28,12 +26,12 @@ function TestimonialsFour() {
                         <div className="section-sub-title">
                         <img
                             src="assets/images/services/section-custom-menubar.png "
-                            alt="Corporate_service"
+                            alt="Servicio_Corporativo"
                         />
-                        <span className="subtitle">Client’s Testimonials</span>
+                        <span className="subtitle">Testimonios de Clientes</span>
                         </div>
                         <h2 className="title split-collab">
-                        What People Say About <br /> Our Company
+                        Lo que Dicen las Personas <br /> Sobre Nuestra Empresa
                         </h2>
                     </div>
                     <div className="button-next-prev">
@@ -45,12 +43,12 @@ function TestimonialsFour() {
                 </div>
                 <div className="row">
                 <div className="col-lg-12">
-                    {/* Slider main container */}
+                    {/* Contenedor principal del slider */}
                     <div className="swiper-style-one">
                     <div className="swiper-container-style-two">
-                        {/* Additional required wrapper */}
+                        {/* Wrapper adicional requerido */}
                         <Swiper
-                                        // install Swiper modules
+                                        // instalar módulos de Swiper
                                         modules={[Navigation, Pagination, EffectFade, Scrollbar, A11y, Autoplay]}
                                         className="mySwiper-portfolio-1"
                                         speed={500}
@@ -90,20 +88,21 @@ function TestimonialsFour() {
                                                     </div>
                                                 </div>
                                                 <p className="description">
-                                                    Its incredible. its really wonderful. company has
-                                                    completely surpassed our expect. Urna porttitor
-                                                    rhoncus dolor purus non enim praesent at the
-                                                    facilisis lectus. Adipiscing tristique risus.
+                                                    Los empaques biodegradables han transformado completamente 
+                                                    nuestro negocio de carnes. La calidad es excepcional y 
+                                                    nuestros clientes valoran nuestro compromiso ambiental. 
+                                                    La frescura se mantiene perfecta y hemos reducido 
+                                                    significativamente nuestro impacto ecológico.
                                                 </p>
                                                 <div className="content content-without-bg">
-                                                    <div className="name">Clade Owen</div>
-                                                    <div className="designation">CEO &amp; Founder</div>
+                                                    <div className="name">Carlos Mendoza</div>
+                                                    <div className="designation">CEO &amp; Fundador</div>
                                                 </div>
                                                 </div>
                                                 <div className="thumbnail">
                                                 <img
                                                     src="assets/images/testimonial/testimonial-1.jpg"
-                                                    alt="testimonial"
+                                                    alt="testimonio"
                                                 />
                                                 <div className="icon icon-quote">
                                                     <i className="fa-duotone fa-quote-left" />
@@ -128,20 +127,21 @@ function TestimonialsFour() {
                                                     </div>
                                                 </div>
                                                 <p className="description">
-                                                    Its incredible. its really wonderful. company has
-                                                    completely surpassed our expect. Urna porttitor
-                                                    rhoncus dolor purus non enim praesent at the
-                                                    facilisis lectus. Adipiscing tristique risus.
+                                                    Como distribuidora de productos del mar, necesitábamos 
+                                                    empaques que mantuvieran la frescura sin dañar el océano. 
+                                                    Estos empaques compostables son la solución perfecta. 
+                                                    Excelente barrera de humedad y completamente sostenibles. 
+                                                    Nuestros clientes están encantados.
                                                 </p>
                                                 <div className="content content-without-bg">
-                                                    <div className="name">Nicolas Alvin</div>
-                                                    <div className="designation">Web Developer</div>
+                                                    <div className="name">Ana Rodríguez</div>
+                                                    <div className="designation">Gerente de Operaciones</div>
                                                 </div>
                                                 </div>
                                                 <div className="thumbnail">
                                                 <img
                                                     src="assets/images/testimonial/testimonial-2.jpg"
-                                                    alt="testimonial"
+                                                    alt="testimonio"
                                                 />
                                                 <div className="icon icon-quote">
                                                     <i className="fa-duotone fa-quote-left" />
@@ -166,20 +166,21 @@ function TestimonialsFour() {
                                                     </div>
                                                 </div>
                                                 <p className="description">
-                                                    Its incredible. its really wonderful. company has
-                                                    completely surpassed our expect. Urna porttitor
-                                                    rhoncus dolor purus non enim praesent at the
-                                                    facilisis lectus. Adipiscing tristique risus.
+                                                    Implementamos estos empaques ecológicos en toda nuestra 
+                                                    cadena de supermercados. Los resultados han superado 
+                                                    nuestras expectativas: menor desperdicio, mejor imagen 
+                                                    corporativa y cumplimiento total con las nuevas 
+                                                    regulaciones ambientales. Altamente recomendados.
                                                 </p>
                                                 <div className="content content-without-bg">
-                                                    <div className="name">Nicolas Alvin</div>
-                                                    <div className="designation">Web Developer</div>
+                                                    <div className="name">Miguel Torres</div>
+                                                    <div className="designation">Director de Compras</div>
                                                 </div>
                                                 </div>
                                                 <div className="thumbnail">
                                                 <img
                                                     src="assets/images/testimonial/testimonial-1.jpg"
-                                                    alt="testimonial"
+                                                    alt="testimonio"
                                                 />
                                                 <div className="icon icon-quote">
                                                     <i className="fa-duotone fa-quote-left" />
@@ -192,17 +193,17 @@ function TestimonialsFour() {
                                         <div className="swiper-button-prev"></div>
                                         <div className="swiper-pagination"></div> */}
                         </Swiper>
-                        {/* If we need navigation buttons */}
+                        {/* Si necesitamos botones de navegación */}
                     </div>
                     </div>
                 </div>
                 </div>
             </div>
             </div>
-            {/* End Testimonial Area  */}
-            {/* End Brand Area  */}
+            {/* Fin Área de Testimonios  */}
+            {/* Fin Área de Marca  */}
         </div>
-        {/* End Testimonial with brand  */}
+        {/* Fin Testimonios con marca  */}
 
 
 
