@@ -170,7 +170,32 @@ function HeaderFour() {
                     <Nav/>
                     {/* <Link href={'#'} class="tmp-btn btn-primary">Get Consulting</Link> */}
                     <div className="actions-area">
-                    <Link href={'/Service'} className="tmp-btn btn-primary">
+                    <Link href={'/Service'} className="" style={{
+                        background: '#98e0243d',
+                        color: '#fff',
+                        backdropFilter: 'blur(20px)',
+                        WebkitBackdropFilter: 'blur(20px)',
+                        border: '1px solid rgba(152, 224, 36, 0.3)',
+                        borderRadius: '12px',
+                        boxShadow: '0 8px 32px rgba(152, 224, 36, 0.1)',                        
+                        padding: 'clamp(8px, 3vw, 6px) clamp(10px, 3vw, 10px)' ,
+                        color: '#ffffff',
+                        textDecoration: 'none',
+                        display: 'inline-block',
+                        transition: 'all 0.3s ease',
+                        boxShadow: '0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1)',
+                        position: 'relative',                                        
+                        transform: 'scale(1.2)',
+                        fontSize: 'clamp(1rem, 2vw, 1.5rem)',
+                    }}
+                    onMouseEnter={(e) => {
+                        e.target.style.transform = 'scale(1.05)';
+                        e.target.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.15)';
+                    }}
+                    onMouseLeave={(e) => {
+                        e.target.style.transform = 'scale(1)';
+                        e.target.style.boxShadow = '0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1)';
+                    }}>
                        Contactanos Ahora
                     </Link>
                     {/* <div class="menu-button" id="search">

@@ -32,7 +32,7 @@ function HomePage() {
         <LargeVideo/>
         <CounterOne/>                
         <TestimonialsFour/>
-        <BrandTwo/>        
+        {/* <BrandTwo/>         */}
         <Blog/>
         <FooterTwo/>
         <BackToTop/>
