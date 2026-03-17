@@ -10,6 +10,7 @@ import { Blog } from './pages/Blog';
 import { BlogDetail } from './pages/BlogDetail';
 import { Contact } from './pages/Contact';
 import { PageDetail } from './pages/PageDetail';
+import { WhatsAppButton } from './components/WhatsAppButton';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -40,6 +41,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <WhatsAppButton />
       </div>
     </Router>
   );
