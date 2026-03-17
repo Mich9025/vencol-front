@@ -14,6 +14,14 @@ export function WhatsAppButton() {
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => {
+          if (typeof (window as any).gtag === 'function') {
+            (window as any).gtag('event', 'whatsapp_click', {
+              'event_category': 'Contact',
+              'event_label': 'WhatsApp Floating Button'
+            });
+          }
+        }}
         className="flex h-16 w-16 items-center justify-center rounded-full bg-[#25b411] shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl active:scale-95"
         aria-label="Contactar por WhatsApp"
       >
